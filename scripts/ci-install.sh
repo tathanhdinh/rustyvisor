@@ -22,6 +22,6 @@ rustup component add rustfmt
 
 sudo apt-get install linux-headers-$(uname -r)
 
-cargo install xargo || true
+cargo install cargo-xbuild
 
-cargo install rustfmt || true
+cargo install rustfmt
